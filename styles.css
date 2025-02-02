@@ -1,0 +1,611 @@
+/*@import url(fonts.css);*/
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.main {
+max-width: 500px;
+margin: auto;
+position: relative;
+width: 360px;
+height: 4160px;
+
+/* black-bg */
+background: #131313;
+}
+
+.content {
+width: 100%;
+height: 100vh;
+background-color: black;
+}
+
+.header {
+display: flex;
+padding: 24px 20px;
+flex-direction: row;
+align-items: flex-start;
+gap: 168px;
+
+position: absolute;
+width: 360px;
+height: 132px;
+left: 0px;
+top: 0px;
+}
+
+.logo {
+/* VЁRSTKA */
+color: white;
+width: 78.45px;
+height: 15.43px;
+}
+
+.header__menu-list {
+/*меню */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 75px;
+height: 84px;
+font-family: 'Interregular', 'sherif';
+font-size: 18px;
+} 
+
+.header__menu-item {
+    /* Главная */
+text-align: center;
+text-decoration: none;
+color: white;
+}
+
+.header__menu-item-2 {
+    /*О нас; Контакты*/
+text-decoration: underline;
+color: white;
+}
+
+.card__img {
+width: 340px;
+height: 221px;
+margin-top: 167px;
+background-size: 95% auto;
+background-repeat: no-repeat;
+background-position: left bottom;
+}
+
+.cover {
+color: white;
+display: flex;
+position: absolute;
+width: 340px;
+height: 221px;
+}
+
+.text-left {
+/* C */
+position: absolute;
+width: 52px;
+height: 72px;
+left: 10px;
+top: 164px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+}
+
+.text-center {
+/* чистого */
+position: absolute;
+width: 226px;
+height: 72px;
+left: 57px;
+top: 236px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+text-align: center;
+}
+
+.text-right {
+/* листа */
+position: absolute;
+width: 161px;
+height: 72px;
+left: 165px;
+top: 308px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+text-align: right;
+}
+
+.content {
+display: flex;
+margin: 0;
+color: #1e1e1e;
+font-family: 'interregular', 'sherif';
+font-weight: 400;
+}
+
+h1, h2, h3, h4, p, ul, ol {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-weight: normal;
+}
+
+.intro {
+color: white;
+/*черный блок*/
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+position: absolute;
+width: 320px;
+height: 453px;
+left: 21px;
+top: 385px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+text-align:left;
+}
+
+.frame-5 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+    
+width: 320px;
+height: 38px;
+
+margin: 0 auto;
+
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #CCCCCC;
+}
+
+.intro__header {
+/*8 способов..*/
+margin: 0;
+width: 203px;
+height: 38px;
+
+font-family: 'Inter', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+}
+
+.intro__date {
+/*дата публикации*/
+margin: 0;
+width: 101px;
+height: 19px;
+
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+}
+
+.intro__main-text {
+/* Начинать что-то новое — тяжело и страшно. */
+width: 320px;
+height: 281px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+
+.reasons {
+color: black;
+/* желтый блок */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 20px;
+gap: 32px;
+
+position: absolute;
+width: 360px;
+height: 1368px;
+left: 0px;
+top: 881px;
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+text-align:left;
+/* yellow-bg */
+background: #FEE42A;
+}
+
+.reasons__header-1, .reasons__header-2 {
+/*Почему чистый лист — такой cтрашный?*/
+position: absolute;
+width: 320px;
+left: 20px;
+    
+font-family: 'ebgaramondmedium', 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 115%;
+color: #131313;
+}
+
+.reasons__header-1 {
+/*Почему чистый лист*/
+height: 31.5px;
+text-align: right;
+top: 40px;
+}
+
+.reasons__header-2 {
+/*— такой cтрашный?*/
+height: 31.5px;
+text-align: left;
+top: 71.5px;
+}
+
+.reasons__text {
+/*Сам по себе чистый лист..*/
+width: 320px;
+height: 297px;
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+margin-top: 82px;
+}
+
+.reasons__list {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 320px;
+height: 865px;
+padding-left: 20px;
+list-style: disc outside none;
+align-self: stretch;
+}
+
+.reasons__list-item {
+margin-bottom: 16px;
+font-family: 'Inter','interregular', 'sherif';
+font-style: normal;
+font-size: 16px;
+line-height: 22px;
+}
+
+.reasons__list-accent {
+/*Неуверенность в результате. Страх критики. Перфекционизм. Отсутствие мотивации. Недостаток информации.*/
+font-weight: bold;
+}
+
+.how-to {
+color: white;
+/* черный блок */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 320px;
+height: 1749px;
+left: 20px;
+top: 2289px;
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+text-align:left;
+}
+
+.card__title-1, .card__title-2 {
+/*Как всё-таки начать что-то делать*/
+position: absolute;
+width: 320px;
+height: 32px;
+left: 0px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 115%;
+}
+
+.card__title-1 {
+/*Как всё-таки начать*/
+top: 0px;
+text-align: right;
+order: 0;
+}
+
+.card__title-2 {
+/*что-то делать*/
+top: 32px;
+text-align: left;
+order: 1;
+}
+
+.card_text-1 {  
+/*Чаще всего страх..*/
+top: 32px;
+width: 320px;
+height: 135px;
+
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 135%;
+margin-top: 32px;
+}
+
+.card__author-photo_polyarinov,
+.card__author-photo_bunin {
+width: 100px;
+height: 100px;
+}
+
+.card__author-photo_polyarinov {
+background: url(images/polyarinov.png);
+border-radius: 50px;
+}
+
+.card__author-photo_bunin {
+background: url(images/bunin.png);
+border-radius: 208px;
+}
+
+.card__author-name-1, .card__author-name-2 {
+width: 92px;
+height: 20px;
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 135%;
+font-weight: bold;
+
+color: #F5F5F5;
+}
+
+.card__author-name-1 {
+/*Алексей Поляринов*/
+width: 163px;
+}
+
+.card__author-name-2 {
+    /*Иван Бунин*/
+width: 92px;
+}
+
+.card__subtitle-1, .card__subtitle-2 {
+/* Начать любыми словами */ /* Сделать из задачи рутину */
+height: 29px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 135%;
+
+color: #F5F5F5;
+}
+
+.card__subtitle-1 {
+/* Начать любыми словами */
+width: 228px;
+}
+
+.card__subtitle-2 {
+/* Сделать из задачи рутину */
+width: 233px;
+}
+
+.card__title_text-only {
+/*Поставить перед собой рамку для фотографии*/
+width: 279px;
+height: 59px;
+
+font-family: 'EB Garamond', 'sherif';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 135%;
+}
+
+.card-1, .card-2 {
+height: 282px;
+        
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align:left;
+    
+color: #F5F5F5;
+align-self: stretch;
+}
+    
+.card-1 {
+width: 346px;
+}
+
+.card-2 {
+width: 279px;
+}
+
+.card_text-only {
+/*Самую обычную: 10 на 15*/
+margin-bottom: 32px;
+
+width: 279px;
+height: 261px;
+    
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+align-self: stretch;
+}
+
+.card_theme_bright {
+/*желтый блок*/
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 8px;
+width: 319px;
+height: 368px;
+margin-bottom: 32px;
+/* желтый фон */
+background: #FEE42A;
+border-radius: 30px;
+color: black;
+}
+
+.card_theme_dark-1, .card_theme_dark-2 {
+/*черные блоки*/
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 8px;
+margin-bottom: 32px;
+
+width: 319px;
+/* серый фон */
+background: #343434;
+border-radius: 30px;
+}
+
+.card_theme_dark-1 {
+height: 495px;
+}
+
+.card_theme_dark-2 {
+height: 559px;
+}
+
+.card__text-2 {
+/* Любыми — без шуток. */
+height: 319px;
+}
+
+.card__text-3 {
+/* «Писать стихи нужно каждый день,*/
+height: 346px;
+}
+.card__text-2, .card__text-3 {
+width: 279px;
+font-family: 'interregular', 'sherif';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #F5F5F5;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 279px;
+height: 319px;
+}
+
+.footer {
+/* footer */
+box-sizing: border-box;
+color: white;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+text-align: justify;
+
+position: absolute;
+width: 360px;
+height: 62px;
+left: 0px;
+top: 4098px;
+
+font-family: 'interregular', 'sherif';
+font-style: normal;
+
+/*желтая граница */
+border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+/*© VЁRSTKA*/
+
+width: 92px;
+height: 22px;
+font-weight: 400;
+font-size: 16px;
+line-height: 135%;
+}
+
+.socials  {
+/*соц.сети*/
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 73px;
+height: 18px;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+} 
+
+.footer__links-1 {
+    /*ВК*/
+width: 19px;
+}
+
+.footer__links-2 {
+/*Ютуб*/
+width: 38px;
+}
