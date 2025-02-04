@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ebgaramondmedium';
+    src:
+      local('ebgaramondmedium'), local('EB Garamond'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondmedium.woff2)
+        format('woff2'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondmedium.woff)
+        format('woff'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondmedium.ttf)
+        format('truetype');
+    font-weight: bold;
+}
+    @font-face {
+        font-family: 'ebgaramondregular';
+    src:
+      local('ebgaramondregular'), local('EB Garamond'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondregular.woff2)
+        format('woff2'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondregular.woff)
+        format('woff'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\ebgaramondregular.ttf)
+        format('truetype');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: 'interbold';
+    src:
+      local('interbold'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interbold.woff2)
+        format('woff2'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interbold.woff)
+        format('woff'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interbold.ttf)
+        format('truetype');
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: 'interregular';
+    src:
+      local('interregular'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interregular.woff2)
+        format('woff2'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interregular.woff)
+        format('woff'),
+      url(C:\Users\user\Desktop\Учеба_html_css\web-project\s-chistogo-lista-review\fonts\interregular.ttf)
+        format('truetype');
+        font-weight: bold;
+    }
